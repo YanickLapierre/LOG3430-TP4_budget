@@ -1,7 +1,5 @@
 from django.test import SimpleTestCase
-import sys
-sys.path.insert(1, "C://Users//yande//PycharmProjects//tp4//LOG3430-TP4_budget//budgetstuff")
-from budgetstuff.forms import ExpenseForm
+from budget.forms import ExpenseForm
 
 
 class TestForms(SimpleTestCase):
