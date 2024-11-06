@@ -1,5 +1,7 @@
 from django.test import TestCase
-from budget.models import Project, Category, Expense
+import sys
+sys.path.insert(1, "C://Users//yande//PycharmProjects//tp4//LOG3430-TP4_budget//budgetstuff")
+from budgetstuff.models import Project, Category, Expense
 
 
 class TestModels(TestCase):

@@ -1,6 +1,8 @@
 from django.test import SimpleTestCase
 from django.urls import reverse,resolve
-from budget.views import project_list,project_detail,ProjectCreateView
+import sys
+sys.path.insert(1, "C://Users//yande//PycharmProjects//tp4//LOG3430-TP4_budget//budgetstuff")
+from budgetstuff.views import project_list,project_detail,ProjectCreateView
 
 
 

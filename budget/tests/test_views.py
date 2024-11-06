@@ -1,6 +1,8 @@
 from django.test import TestCase,Client
 from django.urls import reverse
-from budget.models import Project, Category, Expense
+import sys
+sys.path.insert(1, "C://Users//yande//PycharmProjects//tp4//LOG3430-TP4_budget//budgetstuff")
+from budgetstuff.models import Project, Category, Expense
 import json
 
 
